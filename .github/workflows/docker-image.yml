@@ -28,4 +28,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: varma1909/flask_summarization_app:latest
+          tags: varma1909/frontend_summarization:latest
