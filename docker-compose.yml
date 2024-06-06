@@ -1,0 +1,9 @@
+version: "3"
+services:
+  summarization_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: summarization_app_container
+    ports:
+      - "80:80"
